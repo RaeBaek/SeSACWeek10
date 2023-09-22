@@ -9,6 +9,7 @@ import Foundation
 import Alamofire
 
 enum SeSACAPI {
+    
     private static let unsplashAccessKey = "2-5HkIyBoFI-5rqGans_tV4nflwkhR1tICR9oY3m7nY"
     
     case search(query: String)

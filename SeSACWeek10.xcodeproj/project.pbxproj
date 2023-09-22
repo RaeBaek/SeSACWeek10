@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1466B9862ABBCB6600706084 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1466B9852ABBCB6600706084 /* SearchViewController.swift */; };
+		1466B9882ABBE02000706084 /* HorizontalScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1466B9872ABBE02000706084 /* HorizontalScrollViewController.swift */; };
+		1466B98A2ABBE10100706084 /* VerticalScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1466B9892ABBE10100706084 /* VerticalScrollViewController.swift */; };
+		1466B98C2ABBE12100706084 /* SearchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1466B98B2ABBE12100706084 /* SearchCollectionViewCell.swift */; };
+		1466B98F2ABD169800706084 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1466B98E2ABD169800706084 /* Constant.swift */; };
+		14929B9B2ABA763B0006770A /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14929B9A2ABA763B0006770A /* Router.swift */; };
+		14929B9D2ABA995B0006770A /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14929B9C2ABA995B0006770A /* ViewModel.swift */; };
 		14B347FC2AB9294A00182163 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B347FB2AB9294A00182163 /* AppDelegate.swift */; };
 		14B347FE2AB9294A00182163 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B347FD2AB9294A00182163 /* SceneDelegate.swift */; };
 		14B348002AB9294A00182163 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B347FF2AB9294A00182163 /* ViewController.swift */; };
@@ -24,6 +31,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1466B9852ABBCB6600706084 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		1466B9872ABBE02000706084 /* HorizontalScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalScrollViewController.swift; sourceTree = "<group>"; };
+		1466B9892ABBE10100706084 /* VerticalScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalScrollViewController.swift; sourceTree = "<group>"; };
+		1466B98B2ABBE12100706084 /* SearchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCollectionViewCell.swift; sourceTree = "<group>"; };
+		1466B98E2ABD169800706084 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		14929B9A2ABA763B0006770A /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		14929B9C2ABA995B0006770A /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		14B347F82AB9294A00182163 /* SeSACWeek10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSACWeek10.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14B347FB2AB9294A00182163 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14B347FD2AB9294A00182163 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,11 +88,17 @@
 			children = (
 				14B347FB2AB9294A00182163 /* AppDelegate.swift */,
 				14B347FD2AB9294A00182163 /* SceneDelegate.swift */,
+				14B348182AB93CBC00182163 /* Network */,
+				14B347FF2AB9294A00182163 /* ViewController.swift */,
+				1466B9852ABBCB6600706084 /* SearchViewController.swift */,
+				1466B98B2ABBE12100706084 /* SearchCollectionViewCell.swift */,
+				1466B9872ABBE02000706084 /* HorizontalScrollViewController.swift */,
+				1466B9892ABBE10100706084 /* VerticalScrollViewController.swift */,
 				14B348012AB9294A00182163 /* Main.storyboard */,
 				14B348042AB9294C00182163 /* Assets.xcassets */,
+				1466B98E2ABD169800706084 /* Constant.swift */,
 				14B348062AB9294C00182163 /* LaunchScreen.storyboard */,
 				14B348092AB9294C00182163 /* Info.plist */,
-				14B348182AB93CBC00182163 /* Network */,
 			);
 			path = SeSACWeek10;
 			sourceTree = "<group>";
@@ -86,12 +106,13 @@
 		14B348182AB93CBC00182163 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				14B348192AB93CCE00182163 /* NetworkBasic.swift */,
 				14B3481B2AB9475600182163 /* Photo.swift */,
 				14B3481D2AB964AE00182163 /* SeSACAPI.swift */,
+				14929B9A2ABA763B0006770A /* Router.swift */,
 				14B348212AB977B800182163 /* SeSACError.swift */,
+				14B348192AB93CCE00182163 /* NetworkBasic.swift */,
 				14B3481F2AB9744500182163 /* Network.swift */,
-				14B347FF2AB9294A00182163 /* ViewController.swift */,
+				14929B9C2ABA995B0006770A /* ViewModel.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -177,14 +198,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14929B9D2ABA995B0006770A /* ViewModel.swift in Sources */,
+				1466B9862ABBCB6600706084 /* SearchViewController.swift in Sources */,
+				1466B98F2ABD169800706084 /* Constant.swift in Sources */,
 				14B348002AB9294A00182163 /* ViewController.swift in Sources */,
+				1466B9882ABBE02000706084 /* HorizontalScrollViewController.swift in Sources */,
 				14B3481A2AB93CCE00182163 /* NetworkBasic.swift in Sources */,
 				14B347FC2AB9294A00182163 /* AppDelegate.swift in Sources */,
 				14B347FE2AB9294A00182163 /* SceneDelegate.swift in Sources */,
+				14929B9B2ABA763B0006770A /* Router.swift in Sources */,
 				14B348222AB977B800182163 /* SeSACError.swift in Sources */,
 				14B3481E2AB964AE00182163 /* SeSACAPI.swift in Sources */,
 				14B348202AB9744500182163 /* Network.swift in Sources */,
 				14B3481C2AB9475600182163 /* Photo.swift in Sources */,
+				1466B98C2ABBE12100706084 /* SearchCollectionViewCell.swift in Sources */,
+				1466B98A2ABBE10100706084 /* VerticalScrollViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
