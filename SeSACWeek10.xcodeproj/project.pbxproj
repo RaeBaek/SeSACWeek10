@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1409FA6F2AC2706A009533F1 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1409FA6E2AC2706A009533F1 /* Sample.swift */; };
 		1466B9862ABBCB6600706084 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1466B9852ABBCB6600706084 /* SearchViewController.swift */; };
 		1466B9882ABBE02000706084 /* HorizontalScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1466B9872ABBE02000706084 /* HorizontalScrollViewController.swift */; };
 		1466B98A2ABBE10100706084 /* VerticalScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1466B9892ABBE10100706084 /* VerticalScrollViewController.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1409FA6E2AC2706A009533F1 /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
 		1466B9852ABBCB6600706084 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		1466B9872ABBE02000706084 /* HorizontalScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalScrollViewController.swift; sourceTree = "<group>"; };
 		1466B9892ABBE10100706084 /* VerticalScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalScrollViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				14B348192AB93CCE00182163 /* NetworkBasic.swift */,
 				14B3481F2AB9744500182163 /* Network.swift */,
 				14929B9C2ABA995B0006770A /* ViewModel.swift */,
+				1409FA6E2AC2706A009533F1 /* Sample.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				14B347FC2AB9294A00182163 /* AppDelegate.swift in Sources */,
 				14B347FE2AB9294A00182163 /* SceneDelegate.swift in Sources */,
 				14929B9B2ABA763B0006770A /* Router.swift in Sources */,
+				1409FA6F2AC2706A009533F1 /* Sample.swift in Sources */,
 				14B348222AB977B800182163 /* SeSACError.swift in Sources */,
 				14B3481E2AB964AE00182163 /* SeSACAPI.swift in Sources */,
 				14B348202AB9744500182163 /* Network.swift in Sources */,
